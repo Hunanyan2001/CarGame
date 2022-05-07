@@ -90,7 +90,7 @@ namespace CarGame
                 if (hour == 0 && minute == 0 && second == 0)
                 {
                     MessageBox.Show(" You Win next level ");
-                    minute = 30;
+                    minute = 10;
                     second = 59;
                     rndCar.Speed += 5;
                     rndCar1.Speed += 5;
